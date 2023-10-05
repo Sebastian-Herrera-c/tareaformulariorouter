@@ -1,0 +1,27 @@
+.nav {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    background-color: #333; /* Cambia el color de fondo según tus preferencias */
+    padding: 10px 0;
+  }
+  
+  .nav-item {
+    margin: 0;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: #fff; /* Cambia el color del texto según tus preferencias */
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  
+  .nav-link:hover {
+    background-color: #555; /* Cambia el color de fondo al pasar el mouse sobre los enlaces */
+  }
+  
+  .nav-link.active {
+    background-color: #007bff; /* Cambia el color de fondo del enlace activo */
+  }
+  
